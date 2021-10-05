@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+<!--Membuat teks view (untuk judul)-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pilih Selection Widget"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--Membuat button list view-->
+        <Button
+            android:id="@+id/buttonLv"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="List View" />
+
+
+        <!--Membuat button spiner-->
+        <Button
+            android:id="@+id/buttonSp"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Spinner" />
+
+        <!--Membuat button autcomplete-->
+        <Button
+            android:id="@+id/buttonAuc"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Autocomplete Textview" />
+
+
+
+
+
+</LinearLayout>
